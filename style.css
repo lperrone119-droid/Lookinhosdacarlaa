@@ -1,0 +1,57 @@
+.produto {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 120px;
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #ffffff; /* branco */
+}
+.comprar {
+  background-color: #C8A96A; /* dourado */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.filtros button {
+  background-color: #D9B3FF; /* lilás */
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 6px;
+}
+.comprar:hover {
+  background-color: #b89550; /* dourado mais escuro */
+}
+
+.filtros button:hover {
+  background-color: #c08cff; /* lilás mais forte */
+}
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 10px;
+}body {
+  background-color: #F5E6C8;
+}
